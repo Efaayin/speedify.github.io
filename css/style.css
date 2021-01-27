@@ -1,0 +1,371 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-family: "Mulish", sans-serif;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.m-1 {
+  margin-bottom: 2rem;
+}
+
+.m-2 {
+  margin-bottom: 3rem;
+}
+
+.m-3 {
+  margin-top: 12rem;
+}
+
+.m-4 {
+  margin-bottom: 5rem;
+}
+
+.footer-top > div h3 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 1.9rem;
+  color: #ffffff;
+}
+
+.footer-bottom, .footer-top > div p, .footer-top > div a, .footer-top > div li {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.6rem;
+  color: #889ab4;
+}
+
+.main-utility {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+}
+.main-utility h2 {
+  font-size: 3.6rem;
+  line-height: 4rem;
+  font-weight: 800;
+  color: rgba(2, 49, 101, 0.96);
+}
+.main-utility p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: rgba(2, 49, 101, 0.96);
+}
+.main-utility .offer {
+  width: 27%;
+  margin: 0 auto 2rem auto;
+}
+.main-utility__cards {
+  display: flex;
+  justify-content: space-between;
+}
+.main-utility__cards .card {
+  display: flex;
+  flex-flow: column;
+  flex-basis: 30%;
+  align-items: center;
+  background-color: #e3ebfa;
+  padding: 5rem 3rem;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.main-utility__cards .card span {
+  display: block;
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: #030d42;
+}
+.main-utility__cards .card img {
+  display: block;
+  height: 4.8rem;
+  width: 6rem;
+}
+.main-utility__cards .card .c-1 {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: #023165b3;
+}
+.main-utility__cards .card .c-2 {
+  font-weight: 800;
+  font-size: 6.4rem;
+  line-height: 7.8rem;
+  color: #030d42;
+}
+.main-utility__cards .card .c-3 {
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: #333333;
+}
+.main-utility__cards .card .c-4 {
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #4f4f4f;
+}
+.main-utility__btn {
+  margin-top: 4rem;
+}
+.main-utility__btn a {
+  font-size: 1.3rem;
+  filter: drop-shadow(0px 4px 4px #00000040);
+}
+.main-utility .utility-info {
+  display: flex;
+}
+.main-utility .utility-info__left {
+  flex-basis: 60%;
+}
+.main-utility .utility-info__left img {
+  display: block;
+  width: 100%;
+}
+.main-utility .utility-info__right {
+  flex-basis: 40%;
+  text-align: left;
+}
+
+.main-wireless {
+  display: flex;
+}
+.main-wireless__left {
+  flex-basis: 60%;
+  padding: 8rem 0;
+}
+.main-wireless__left h1 {
+  font-weight: 800;
+  font-size: 7.2rem;
+  line-height: 9.03rem;
+  color: #023165;
+}
+.main-wireless__left p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #023165b3;
+}
+.main-wireless__right {
+  flex-basis: 40%;
+}
+.main-wireless__right img {
+  display: block;
+  width: 100%;
+}
+
+.btn-secondary, .btn-primary {
+  width: 23rem;
+  padding: 2rem 5rem;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 1.6rem;
+  line-height: 2.08rem;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #1e55b7;
+  color: #ffffff;
+  transition: all 0.5s ease-in;
+}
+.btn-primary:hover {
+  transform: scale(0.98);
+  background-color: #427ae0;
+}
+
+.btn-secondary {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  transition: all 0.5s ease-in;
+}
+.btn-secondary:hover {
+  transform: scale(0.98);
+  color: #1e55b7;
+  background-color: #ffffff;
+}
+
+.hero {
+  background-image: url(/imgs/hero-img.svg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding: 0 5rem;
+  max-width: 144rem;
+}
+.hero-nav {
+  padding: 2rem 0;
+  height: 10%;
+}
+.hero-nav nav {
+  display: flex;
+  justify-content: space-between;
+}
+.hero-nav__logo {
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 2.8rem;
+  color: #ffffff;
+}
+.hero-nav__wider {
+  width: 55%;
+}
+.hero-nav__wider ul {
+  display: flex;
+  justify-content: space-between;
+}
+.hero-nav__wider ul a {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  color: #ffffff;
+}
+.hero-nav__wider ul a:hover {
+  color: #febb01;
+}
+.hero-nav__wider .ham-open {
+  display: none;
+}
+.hero-main {
+  height: 70%;
+}
+.hero-main h1 {
+  font-weight: 800;
+  font-size: 9rem;
+  line-height: 8.5rem;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 7rem;
+  margin-bottom: 5rem;
+}
+.hero-main p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  text-align: center;
+  color: #ffffff;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+.hero-main__buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.hero .mobile-nav {
+  display: none;
+}
+.hero-circle {
+  position: relative;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  transition: 0.5s background-color ease-in-out;
+}
+.hero-circle:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.hero-circle .smaller-circle {
+  position: absolute;
+  top: 12%;
+  left: 12%;
+  display: flex;
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0rem 0.4rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+.hero-circle .smaller-circle a {
+  position: absolute;
+  top: 24%;
+  left: 19%;
+  display: block;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
+.hero-circle .smaller-circle img {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.main {
+  padding: 0 5rem;
+  background-color: #e0e5f2;
+}
+.main-brands {
+  display: flex;
+  padding: 4rem 0;
+}
+.main-brands span {
+  width: 20%;
+  font-size: 2.6rem;
+}
+.main-brands .brands {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.main-brands .brands img {
+  display: block;
+  width: 13%;
+  object-fit: contain;
+  height: 4rem;
+}
+
+.footer {
+  padding: 5rem 5rem 3rem 5rem;
+  background-color: #212744;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-top > div {
+  flex-basis: 20%;
+}
+.footer-top .social {
+  display: flex;
+  align-items: center;
+}
+.footer-top .social a:not(:last-child) {
+  margin-right: 1rem;
+}
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+}
+.footer-bottom a {
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=style.css.map */
