@@ -293,7 +293,7 @@ a {
   height: 90vh;
   right: 5rem;
   top: 2rem;
-  width: 90vw;
+  width: 50vw;
   z-index: 2;
   font-size: 1.6rem;
   color: #ffffff;
@@ -504,12 +504,84 @@ a {
     display: block;
     cursor: pointer;
   }
+  .hero-main {
+    height: 65vh;
+  }
   .hero-main h1 {
-    font-size: 7rem;
-    line-height: 10rem;
+    font-size: 6rem;
+    line-height: 7rem;
   }
   .hero-main__buttons {
     width: 50%;
+  }
+
+  .main-brands {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  .main-brands span {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    font-size: 2.6rem;
+  }
+  .main-brands .brands {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .main-brands .brands img {
+    display: block;
+    width: 10%;
+    height: 4rem;
+  }
+  .main-utility__cards {
+    flex-flow: column;
+  }
+  .main-utility__cards .card {
+    justify-content: center;
+    width: 80%;
+    min-height: 40rem;
+    margin: 0 auto;
+    padding: 5rem;
+  }
+  .main-utility__cards .card:not(:last-child) {
+    margin-bottom: 10rem;
+  }
+  .main-utility__cards .card img {
+    height: 5.4rem;
+    width: 7rem;
+    margin-bottom: 5rem;
+  }
+  .main-utility__cards .card span {
+    font-size: 4rem;
+    margin-bottom: 5rem;
+  }
+  .main-utility__cards .card p {
+    font-size: 2rem;
+  }
+  .main-utility .utility-info {
+    flex-flow: column-reverse;
+  }
+  .main-utility .utility-info__left {
+    flex-basis: 50%;
+  }
+  .main-utility .utility-info__right {
+    flex-basis: 50%;
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+  .main-wireless {
+    flex-flow: column;
+  }
+  .main-wireless__left {
+    flex-basis: 50%;
+    text-align: center;
+  }
+  .main-wireless__right {
+    flex-basis: 50%;
   }
 }
 
