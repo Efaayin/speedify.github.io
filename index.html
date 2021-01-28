@@ -23,23 +23,23 @@
                             <li><a href="#">Product & Services</a></li>
                             <li><a href="#">Modems</a></li>
                             <li><a href="#">Contact Us</a></li>
-                            <li class="ham-open">&#9776;</li>
+                            <li class="ham-open" id="open">&#9776;</li>
                         </ul>
                     </div>
                 </nav>
             </div>
 
-            <div class="mobile-nav">
-                <span class="ham-close">&#9747;</span>
+            <div class="mobile-nav" id="mobile-nav">
+                <span class="ham-close" id="close">&#9747;</span>
 
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>FAQ</li>
-                    <li>Data Plans</li>
-                    <li>Product & Services</li>
-                    <li>Modems</li>
-                    <li>Contact Us</li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Data Plans</a></li>
+                    <li><a href="#">Product & Services</a></li>
+                    <li><a href="#">Modems</a></li>
+                    <li><a href="#">Contact Us</a></li>
                 </ul>
             </div>
 
@@ -128,7 +128,7 @@
                 <div class="main-utility__cards">
                     <div class="card">
                         <p class="c-1 m-1">Ultimate Bundle</p>
-                        <h1 class="m-4 c-2">250BG</h1>
+                        <h1 class="m-4 c-2">250GB</h1>
                         <p class="c-3">$25.00/Monthly</p>
                         <p class="c-4">Unlimited Night and Morning Browsing</p>
                     </div>
@@ -188,41 +188,46 @@
 
         <footer class="footer">
             <div class="footer-top">
-                <div>
-                    <h3 class="m-1">Speedify Internet</h3>
-                    <p>
-                        We provide you with quality internet service that makes you work faster
-                    </p>
+                <div class="footer-top__left">
+                    <div>
+                        <h3 class="m-1">Speedify Internet</h3>
+                        <p>
+                            We provide you with quality internet service that makes you work faster
+                        </p>
+                    </div>
+    
+                    <div class="cent">
+                        <h3 class="m-1">Links</h3>
+                        <nav>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
-
-                <div>
-                    <h3 class="m-1">Links</h3>
-                    <nav>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Careers</a></li>
-                        </ul>
-                    </nav>
+                
+                <div class="footer-top__right">
+                    <div>
+                        <h3 class="m-1">Get In Touch</h3>
+                        <nav>
+                            <ul>
+                                <li>Washington D.C., Dallas, Accra, Lagos, Nairobi</li>
+                                <li>kemi.a@speedify.com</li>
+                                <li>+1 5867 45 7595 90</li>
+                            </ul>
+                        </nav>
+                    </div>
+    
+                    <div class="social">
+                        <a href="#"><img src="imgs/facebook.svg" alt="facebook"></a>
+                        <a href="#"><img src="imgs/twitter.svg" alt="twitter"></a>
+                        <a href="#"><img src="imgs/linkedin.svg" alt="linkedin"></a>
+                    </div>
                 </div>
-
-                <div>
-                    <h3 class="m-1">Get In Touch</h3>
-                    <nav>
-                        <ul>
-                            <li>Washington D.C., Dallas, Accra, Lagos, Nairobi</li>
-                            <li>kemi.a@speedify.com</li>
-                            <li>+1 5867 45 7595 90</li>
-                        </ul>
-                    </nav>
-                </div>
-
-                <div class="social">
-                    <a href="#"><img src="imgs/facebook.svg" alt="facebook"></a>
-                    <a href="#"><img src="imgs/twitter.svg" alt="twitter"></a>
-                    <a href="#"><img src="imgs/linkedin.svg" alt="linkedin"></a>
-                </div>
+                
             </div>
 
             <div class="footer-bottom">
@@ -230,5 +235,7 @@
             </div>
         </footer>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
