@@ -49,7 +49,7 @@ a {
 }
 
 .btn-secondary, .btn-primary {
-  width: 23rem;
+  flex-basis: 45%;
   padding: 2rem 5rem;
   border-radius: 0.5rem;
   box-sizing: border-box;
@@ -282,7 +282,7 @@ a {
 }
 .hero-main__buttons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 40%;
   margin: 0 auto;
   box-sizing: border-box;
@@ -317,6 +317,7 @@ a {
   text-decoration: none;
   display: block;
   padding: 2rem 0;
+  transition: all 1s ease-in;
 }
 .hero .mobile-nav ul li:hover {
   background-color: #febb01;
@@ -416,9 +417,8 @@ a {
   color: #ffffff;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
   .btn-primary, .btn-secondary {
-    width: 18rem;
     padding: 2rem 3rem;
     font-size: 1.3rem;
   }
@@ -582,6 +582,101 @@ a {
   }
   .main-wireless__right {
     flex-basis: 50%;
+  }
+}
+@media (max-width: 784px) {
+  .btn-primary, .btn-secondary {
+    flex-basis: 45%;
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+  }
+
+  .hero-nav__logo {
+    font-size: 3rem;
+  }
+  .hero-main h1 {
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+  .hero-main p {
+    width: 90%;
+  }
+  .hero-main__buttons {
+    width: 60%;
+  }
+  .hero-circle {
+    height: 6rem;
+    width: 6rem;
+  }
+  .hero-circle .smaller-circle {
+    top: 12%;
+    left: 12%;
+    height: 4rem;
+    width: 4rem;
+  }
+  .hero-circle .smaller-circle a {
+    top: 20%;
+    left: 0%;
+    height: 4rem;
+    width: 4rem;
+  }
+  .hero-circle .smaller-circle img {
+    width: 40%;
+  }
+
+  .main .brands {
+    flex-flow: column;
+  }
+  .main .brands img {
+    display: block;
+    width: 50%;
+    height: 7rem;
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+
+  .main-utility .offer {
+    width: 60%;
+  }
+  .main-utility .utility-info {
+    display: flex;
+  }
+  .main-utility .utility-info__left {
+    display: flex;
+    align-items: center;
+    flex-basis: 60%;
+  }
+  .main-utility .utility-info__right {
+    flex-basis: 40%;
+  }
+  .main-utility__cards .card span {
+    line-height: 5rem;
+  }
+
+  .main-wireless {
+    display: flex;
+  }
+  .main-wireless__left {
+    flex-basis: 50%;
+    padding: 6rem 0;
+  }
+  .main-wireless__left h1 {
+    font-size: 4.5rem;
+    color: #023165;
+    line-height: 5rem;
+  }
+  .main-wireless__left p {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #023165b3;
+  }
+  .main-wireless__right {
+    flex-basis: 50%;
+  }
+  .main-wireless__right img {
+    display: block;
+    width: 100%;
   }
 }
 
