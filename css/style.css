@@ -483,6 +483,17 @@ a {
     width: 100%;
   }
 }
+@media (max-width: 1300px) and (height: 600px) {
+  .hero-main {
+    height: 70%;
+  }
+  .hero-main h1 {
+    font-size: 6rem;
+    line-height: 8rem;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+  }
+}
 @media (max-width: 992px) {
   .hero-nav__logo {
     font-size: 3.5rem;
@@ -595,22 +606,26 @@ a {
     font-size: 3rem;
   }
   .hero-main h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     line-height: 6rem;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
   }
   .hero-main p {
     width: 90%;
+    margin-top: 1rem;
   }
   .hero-main__buttons {
     width: 60%;
   }
   .hero-circle {
-    height: 6rem;
-    width: 6rem;
+    height: 5rem;
+    width: 5rem;
+    margin-top: 2rem;
   }
   .hero-circle .smaller-circle {
-    top: 12%;
-    left: 12%;
+    top: 10%;
+    left: 10%;
     height: 4rem;
     width: 4rem;
   }
