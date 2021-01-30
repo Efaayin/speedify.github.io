@@ -283,6 +283,7 @@ a {
   box-sizing: border-box;
 }
 .hero .mobile-nav {
+  display: none;
   position: absolute;
   right: 5rem;
   top: 2rem;
@@ -295,9 +296,10 @@ a {
 }
 .hero .mobile-nav .close {
   display: flex;
-  justify-content: right;
+  justify-content: flex-end;
 }
-.hero .mobile-nav .ham-close {
+.hero .mobile-nav .close .ham-close {
+  display: block;
   font-size: 4rem;
   font-weight: 800;
   text-align: right;
