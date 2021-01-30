@@ -566,7 +566,6 @@ a {
   }
   .main-utility__cards .card span {
     font-size: 4rem;
-    border: red 1px solid;
     line-height: 4rem;
     margin-bottom: 5rem;
   }
