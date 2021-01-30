@@ -418,7 +418,7 @@ a {
   color: #ffffff;
 }
 
-@media (max-width: 1300px) {
+@media (min-width: 991px) and (max-width: 1300px) {
   .btn-primary, .btn-secondary {
     padding: 2rem 3rem;
     font-size: 1.3rem;
@@ -486,17 +486,6 @@ a {
   .main-wireless__right img {
     display: block;
     width: 100%;
-  }
-}
-@media (max-width: 1300px) and (height: 600px) {
-  .hero-main {
-    height: 70%;
-  }
-  .hero-main h1 {
-    font-size: 6rem;
-    line-height: 8rem;
-    margin-bottom: 3rem;
-    margin-top: 2rem;
   }
 }
 @media (max-width: 992px) {
