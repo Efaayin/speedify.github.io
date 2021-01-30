@@ -298,11 +298,10 @@ a {
   display: flex;
   justify-content: flex-end;
 }
-.hero .mobile-nav .close .ham-close {
-  display: block;
+.hero .mobile-nav .close span.ham-close {
+  display: flex;
   font-size: 4rem;
   font-weight: 800;
-  text-align: right;
   padding: 0 1rem 0 0;
   cursor: pointer;
 }
@@ -595,6 +594,13 @@ a {
   }
   .main-wireless__right {
     flex-basis: 50%;
+  }
+
+  .footer-top {
+    flex-flow: column;
+  }
+  .footer .social {
+    justify-content: left;
   }
 }
 @media (max-width: 784px) {
