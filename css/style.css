@@ -220,12 +220,10 @@ a {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
-  padding: 0 5rem;
+  padding: 3rem 5rem;
 }
 .hero-nav {
-  padding: 2rem 0;
-  height: 10%;
+  padding: 0;
 }
 .hero-nav nav {
   display: flex;
@@ -258,9 +256,6 @@ a {
   color: #ffffff;
   font-size: 4rem;
 }
-.hero-main {
-  height: 70%;
-}
 .hero-main h1 {
   font-weight: 800;
   font-size: 9rem;
@@ -284,7 +279,7 @@ a {
   display: flex;
   justify-content: space-between;
   width: 40%;
-  margin: 0 auto;
+  margin: 0 auto 7rem auto;
   box-sizing: border-box;
 }
 .hero .mobile-nav {
@@ -293,19 +288,23 @@ a {
   height: 90vh;
   right: 5rem;
   top: 2rem;
-  width: 50vw;
+  width: 35rem;
   z-index: 2;
   font-size: 1.6rem;
   color: #ffffff;
   background-image: linear-gradient(to bottom left, #031e52, #01689c);
-  transition: all 1s ease-in;
+  transition: all 1s ease-in-out;
+}
+.hero .mobile-nav .close {
+  display: flex;
+  justify-content: flex-end;
 }
 .hero .mobile-nav .ham-close {
-  display: block;
   font-size: 4rem;
   font-weight: 800;
   text-align: right;
   padding: 0 1rem 0 0;
+  cursor: pointer;
 }
 .hero .mobile-nav ul li {
   font-size: 2rem;
@@ -327,7 +326,7 @@ a {
   height: 8rem;
   width: 8rem;
   border-radius: 50%;
-  margin: 0 auto;
+  margin: 7rem auto 0rem auto;
   transition: 0.5s background-color ease-in-out;
 }
 .hero-circle:hover {
@@ -503,6 +502,10 @@ a {
   .hero-nav__wider {
     width: 80%;
   }
+  .hero-nav__wider ul {
+    display: flex;
+    justify-content: flex-end;
+  }
   .hero-nav__wider ul li a {
     font-size: 1.8rem;
   }
@@ -510,13 +513,8 @@ a {
     display: none;
   }
   .hero-nav__wider ul .ham-open {
-    width: 100%;
-    text-align: right;
     display: block;
     cursor: pointer;
-  }
-  .hero-main {
-    height: 65vh;
   }
   .hero-main h1 {
     font-size: 6rem;
@@ -568,6 +566,8 @@ a {
   }
   .main-utility__cards .card span {
     font-size: 4rem;
+    border: red 1px solid;
+    line-height: 4rem;
     margin-bottom: 5rem;
   }
   .main-utility__cards .card p {
