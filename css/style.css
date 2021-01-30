@@ -441,6 +441,10 @@ a {
     width: 50%;
   }
 
+  .mobile-nav {
+    display: none !important;
+  }
+
   .main span {
     width: 20%;
     font-size: 2rem;
