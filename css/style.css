@@ -283,12 +283,10 @@ a {
   box-sizing: border-box;
 }
 .hero .mobile-nav {
-  display: none;
   position: absolute;
-  height: 90vh;
   right: 5rem;
   top: 2rem;
-  width: 35rem;
+  width: 30rem;
   z-index: 2;
   font-size: 1.6rem;
   color: #ffffff;
@@ -297,7 +295,7 @@ a {
 }
 .hero .mobile-nav .close {
   display: flex;
-  justify-content: flex-end;
+  justify-content: right;
 }
 .hero .mobile-nav .ham-close {
   font-size: 4rem;
@@ -305,6 +303,9 @@ a {
   text-align: right;
   padding: 0 1rem 0 0;
   cursor: pointer;
+}
+.hero .mobile-nav ul {
+  padding: 2rem 0;
 }
 .hero .mobile-nav ul li {
   font-size: 2rem;
