@@ -702,5 +702,58 @@ a {
     width: 100%;
   }
 }
+@media (max-width: 576px) {
+  .hero {
+    padding: 3rem 2rem;
+  }
+  .hero-nav__logo {
+    font-size: 2rem;
+  }
+  .hero-main h1 {
+    font-size: 3rem;
+    line-height: 5rem;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
+  }
+  .hero-main p {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .hero-main__buttons {
+    flex-flow: column;
+    width: 80%;
+  }
+  .hero-main__buttons .btn-primary {
+    margin-bottom: 2rem;
+  }
+  .hero .mobile-nav {
+    right: 2rem;
+    top: 3rem;
+    width: 88vw;
+  }
+
+  .main {
+    padding: 2rem 2rem;
+  }
+  .main-utility {
+    width: 100%;
+  }
+  .main-utility__cards .card {
+    width: 100%;
+  }
+
+  .footer {
+    padding: 5rem 2rem 3rem 2rem;
+  }
+  .footer-top__left {
+    margin-bottom: 3rem;
+  }
+  .footer-top__left, .footer-top__right {
+    flex-flow: column;
+  }
+  .footer-top__left > div:not(:last-child), .footer-top__right > div:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
